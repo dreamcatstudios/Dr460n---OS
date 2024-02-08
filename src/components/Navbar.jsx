@@ -6,7 +6,10 @@ const Navbar = () => {
   return (
     <nav className="shadow-sm border-[#333] bg-gray-900 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-white text-xl sm:text-2xl font-bold">
+        <Link
+          to="/public/assets/??.gif"
+          className="text-white text-xl sm:text-2xl font-bold"
+        >
           Dr460nized OS
         </Link>
         <div className="flex justify-center items-center space-x-5 sm:space-x-5">
