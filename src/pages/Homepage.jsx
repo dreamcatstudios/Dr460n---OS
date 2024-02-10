@@ -8,23 +8,23 @@ const Homepage = () => {
     {
       bg: "/assets/folder.png",
       level: "1",
-      title: "Alex_01",
+      title: "Flag_01",
     },
     {
       bg: "/assets/folder.png",
-      title: "95600_02",
+      title: "Flag_02",
     },
     {
       bg: "/assets/folder.png",
-      title: "Ethan_03",
+      title: "Flag_03",
     },
     {
       bg: "/assets/folder.png",
-      title: "Deepfake_04",
+      title: "Flag_04",
     },
     {
       bg: "/assets/folder.png",
-      title: "Samuel_05",
+      title: "Flag_05",
     },
     {
       bg: "/assets/folder.png",
