@@ -28,23 +28,23 @@ const Homepage = () => {
     },
     {
       bg: "/assets/folder.png",
-      title: "Aurora_06",
+      title: "Flag_06",
     },
     {
       bg: "/assets/folder.png",
-      title: "Natalie_07",
+      title: "Flag_07",
     },
     {
       bg: "/assets/folder.png",
-      title: "Surbhi_08",
+      title: "Flag_08",
     },
     {
       bg: "/assets/folder.png",
-      title: "Jim_09",
+      title: "Flag_09",
     },
     {
       bg: "/assets/folder.png",
-      title: "Adam_10",
+      title: "Flag_10",
     },
   ];
 
@@ -75,7 +75,7 @@ const Homepage = () => {
 
   return (
     <div
-      style={{ backgroundImage: `url("/assets/Garuda2.png")` }}
+      style={{ backgroundImage: `url("/assets/garuda.png")` }}
       className="flex flex-col h-screen  brightness-75 bg-cover container"
     >
       {loading && (
