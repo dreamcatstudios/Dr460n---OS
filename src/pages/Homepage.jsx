@@ -50,6 +50,22 @@ const Homepage = () => {
       bg: "/assets/folder.png",
       title: "Flag_11",
     },
+    {
+      bg: "/assets/folder.png",
+      title: "Flag_12",
+    },
+    {
+      bg: "/assets/folder.png",
+      title: "Flag_13",
+    },
+    {
+      bg: "/assets/folder.png",
+      title: "Flag_14",
+    },
+    {
+      bg: "/assets/folder.png",
+      title: "Flag_15",
+    },
   ];
 
   const [loading, setLoading] = useState(true);
