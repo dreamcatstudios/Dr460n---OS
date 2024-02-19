@@ -75,6 +75,7 @@ const QuestCard = () => {
   const onDownloadClick = (e) => {
     e.stopPropagation();
     scrollToTop();
+    console.log("Downloaded!", e);
     toast.success("File Downloaded! Check your downloads folder");
   };
 
@@ -103,6 +104,8 @@ const QuestCard = () => {
                     <a
                       onClick={onDownloadClick}
                       href={questData[name].fileDownload}
+                      target="_blank"
+                      rel="noopener noreferrer" // Added for security and performance reasons
                       className="px-5 py-4 bg-white text-black hover:bg-black hover:border-white hover:border hover:text-white hover:bg-transparent hover:transition-all hover:delay-50 hover:ease-in-out"
                     >
                       {questData[name].fileName}
