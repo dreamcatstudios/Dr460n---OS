@@ -108,7 +108,7 @@ const QuestCard = () => {
                     <button
                       onClick={() => openInNewTab(questData[name].fileDownload)}
                       className="px-5 py-4 bg-white text-black hover:bg-black hover:border-white hover:border hover:text-white hover:bg-transparent hover:transition-all hover:delay-50 hover:ease-in-out"
-                    >
+                    >`  `
                       {questData[name].fileName}
                     </button>
                   ) : (
