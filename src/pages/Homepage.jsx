@@ -82,6 +82,10 @@ const Homepage = () => {
       bg: "/assets/folder.png",
       title: "Flag_19",
     },
+    {
+      bg: "/assets/folder.png",
+      title: "Flag_20",
+    },
   ];
 
   const [loading, setLoading] = useState(true);
@@ -125,7 +129,6 @@ const Homepage = () => {
             <Link
               key={index}
               to={`/file/${item.title.toLowerCase().replace(/\s+/g, "")}`}
-              className=""
             >
               <div
                 className="btn-img bg-cover bg-no-repeat sm:w-20 sm:h-20 h-14 w-14 hover:brightness-75"
