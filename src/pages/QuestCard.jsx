@@ -104,7 +104,11 @@ const QuestCard = () => {
 
             <div className="border border-[#fafafa] p-3 space-y-3">
               <div className="flex flex-col gap-4">
-                <h1>Download - File</h1>
+                <h1>
+                  {questData[name].downloadable
+                    ? "Download File"
+                    : "Visit Link"}{" "}
+                </h1>
                 <div className="mb-2 sm:mb-0">
                   {questData[name].downloadable ? (
                     <button
