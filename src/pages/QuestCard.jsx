@@ -79,8 +79,10 @@ const QuestCard = () => {
   const onDownloadClick = (e) => {
     e.stopPropagation();
     scrollToTop();
-    console.log("Downloaded!", e);
-    toast.success("File Downloaded! Check your downloads folder");
+    if (questData[name].downloadable) {
+      downloadFile(questData[name].fileDownload);
+      toast.success("File Downloaded! Check your downloads folder");
+    }
   };
 
   console.log("decryptedData: ", decryptedData);

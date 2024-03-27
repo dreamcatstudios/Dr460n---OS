@@ -6,6 +6,7 @@ import QuestCard from "@/pages/QuestCard";
 import garuda from "@/assets/garuda.png";
 
 const App = () => {
+  console.log("Made by Dreamcatstudios");
   return (
     <BrowserRouter basename="/dragonOS/dist/">
       <div
